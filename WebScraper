@@ -85,7 +85,7 @@ public class WebScraper {
 			if(lString.contains("download")){
 				Thread.sleep(6000);
 				String linkTrimming = lString.substring(11, 38);
-				String finalLink = "http://torrent-pirat.com/" + linkTrimming;
+				String finalLink = "www.thisshouldbeawebsite.com" + linkTrimming;
 				System.out.println(finalLink);
 				downloadFile(finalLink, "Desktop");
 		
